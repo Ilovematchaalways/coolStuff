@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🐢SeaTurtle 🐢</title>
+    <style>
+      body {
+        background-color: #51c5d8;
+      }
+      h1 {
+        text-align: center;
+        color: coral;
+      }
+      h2 {
+        text-align: center;
+        color: coral;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        border-radius: 10px;
+        color: coral;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 11px;
+      }
+      .whole {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px 50px;
+      }
+      .trot {
+        text-align: center;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: coral;
+        color: aliceblue;
+        font-size: 20px;
+        padding: 15px 20px;
+        border-radius: 12px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      .spot {
+        display: block;
+        margin: 20px 0 0 0;
+        text-decoration: none;
+        color: coral;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <h1>🐢 Sea Turtles 🐢</h1>
+      <h2>Ocean Clean up</h2>
+      <img
+        src="https://mauikayakadventures.com/wp-content/uploads/P7260201-1030x773.jpg"
+        alt="Sea Turtles"
+        width="500"
+      />
+      <p>
+        Sea turtles are large, air-breathing reptiles that inhabit tropical and
+        subtropical seas throughout the world. Their shells consist of an upper
+        part (carapace) and a lower section (plastron). Hard scales (or scutes)
+        cover all but the leatherback, and the number and arrangement of these
+        scutes can be used to determine the species.
+      </p>
+
+      <br />
+      <a
+        href="https://conserveturtles.org/information-about-sea-turtles-an-introduction/"
+        target="_blank"
+        class="spot"
+      >
+        Learn more on Conserveturtles.org
+      </a>
+      <br />
+      <button>
+        <a
+          class="here"
+          href="https://www.nfwf.org/programs/sea-turtles"
+          target="_blank"
+        >
+          ❤️Support Sea Turtles ❤️
+        </a>
+      </button>
+      <br />
+      <button>
+        <a href="https://theoceancleanup.com/" target="_blank">
+          🌊Ocean Clean Up 🌊
+        </a>
+      </button>
+      <p class="trot">This page was built by Alexis King</p>
+    </div>
+    <script>
+      let favorite = prompt("What is your favorite animal?");
+      if (favorite.trim().toLowerCase() === "sea turtle") {
+        alert("🌞MY FAV ANIMAL🌞");
+      } else {
+        alert("That's a nice animal choice too! Psst, refresh the page and put sea turtle.");
+      }
+    </script>
+  </body>
+</html>
